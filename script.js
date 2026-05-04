@@ -9,7 +9,7 @@ class Carousel{
         this.CarouselControls = controls;
         this.CarouselArray = [...items];
     }
-
+     
     updateGallery(){
         this.CarouselArray.forEach(el =>{
             el.classList.remove('gallery-item-1');
